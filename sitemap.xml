@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>/jekyll/update/2015/08/25/welcome-to-jekyll/</loc>
+    <lastmod>2015-10-11T00:08:01-03:00</lastmod>
+  </url>
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2015-08-30T02:21:42-03:00</lastmod>
+  </url>
+  <url>
+    <loc>/</loc>
+    <lastmod>2015-12-17T13:26:08-02:00</lastmod>
+  </url>
+</urlset>

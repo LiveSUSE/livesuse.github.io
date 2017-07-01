@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Your awesome title</ShortName>
+	<Description>Use Google to search Your awesome title</Description>
+	<Url type="application/rss+xml" template="https://www.google.com/search?as_sitesearch=&q={searchTerms}"/>
+</OpenSearchDescription>
