@@ -50,17 +50,29 @@ body {
 
 /* Brand */
 
+a.navbar-brand {
+    padding-left: 0px !important;
+}
+
 @media (min-width: 350px) {
     a.navbar-brand {
-        background: url(../favicons/favicon-32x32.png) 15px no-repeat;
-        padding-left: 60px !important;
+        background: url(../favicons/android-chrome-192x192.png) 0px no-repeat;
+        background-size: 40px;
+        padding-left: 50px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    a.navbar-brand {
+        background-position: 15px;
+        padding-left: 65px !important;
     }
 }
 
 /* Footer */
 
 .footer {
-    background-color: #009688;
+    background-color: #9CCC65;
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -133,7 +145,7 @@ body {
 }
 
 #search-form {
-    background: #009688;
+    background: #9CCC65;
     box-shadow: none;
     position: absolute;
     top: 0;
