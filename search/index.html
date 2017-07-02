@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" prefix="
-    
+    addthis: http://www.addthis.com/help/api-spec
     og: http://ogp.me/ns#
     fb: http://ogp.me/ns/fb#
     article: http://ogp.me/ns/article#">
@@ -12,50 +12,56 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     
+        <script type="text/javascript">
+            if (("livesuse.github.io" == window.location.host) && (window.location.protocol != "https:")) {
+                window.location = window.location.toString().replace(/^http:/, "https:");
+            }
+        </script>
+    
 
     <title>LiveSUSE</title>
-    <meta name="author" content="Your awesome name">
+    <meta name="author" content="Antônio Vinícius">
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
-    <link rel="canonical" href="/search/">
-    <link rel="alternate" type="application/rss+xml" title="LiveSUSE" href="/feed.xml" />
+    <link rel="canonical" href="https://livesuse.github.io/search/">
+    <link rel="alternate" type="application/rss+xml" title="LiveSUSE" href="https://livesuse.github.io/feed.xml" />
 
     <!-- OpenSearch -->
-    <link rel="search" type="application/opensearchdescription+xml" title="Search LiveSUSE" href="/opensearch.xml" />
+    <link rel="search" type="application/opensearchdescription+xml" title="Search LiveSUSE" href="https://livesuse.github.io/opensearch.xml" />
 
     <!-- Open Graph -->
     
     
     
+        <meta property="fb:page_id" content="127893247800983" />
     
-        <meta property="og:author" content="Your awesome name" />
+    
+        <meta property="og:author" content="Antônio Vinícius" />
     
     <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 " />
     
-        <meta property="og:email" content="your-email@yourdomain.com" />
     
-    
-        <meta property="og:image" content="/assets/favicons/android-chrome-192x192.png" />
+        <meta property="og:image" content="https://livesuse.github.io/assets/favicons/android-chrome-192x192.png" />
     
     <meta property="og:site_name" content="LiveSUSE" />
     <meta property="og:title" content="LiveSUSE" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="/search/" />
+    <meta property="og:url" content="https://livesuse.github.io/search/" />
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary" />
     
-        <meta name="twitter:site" content="@jekyllrb" />
+        <meta name="twitter:site" content="@LiveSUSE" />
     
 
     <!-- Favicons (made with RealFaviconGenerator.net) -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicons/manifest.json">
-    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
-    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://livesuse.github.io/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://livesuse.github.io/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://livesuse.github.io/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="https://livesuse.github.io/assets/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://livesuse.github.io/assets/favicons/favicon.ico">
+    <meta name="msapplication-config" content="https://livesuse.github.io/assets/favicons/browserconfig.xml">
     <meta name="theme-color" content="#c1d99d">
 
     <!-- CSS -->
@@ -83,9 +89,45 @@
     <script src="/assets/js/main.js"></script>
 
     
+        <!-- Google Analytics -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-65333685-5', 'auto');
+        ga('send', 'pageview', {
+            'page': 'https://livesuse.github.io/search/',
+            'title': 'LiveSUSE'
+        });
+
+        </script>
+        <!-- End Google Analytics -->
     
 
+    
+        <!-- Google AdSense -->
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+
+    
+        <!-- AddThis -->
+        <script async src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-595853b7d29a5491"></script>
+        <script type="text/javascript">
+            var addthis_config = {
+                data_track_clickback: true,
+                data_track_addressbar: true,
+                ui_language: 'en'
+            };
+            var addthis_share = {
+                url: 'https://livesuse.github.io/search/',
+                title: document.title,
+                description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+'
+            };
+        </script>
+        <!-- End AddThis -->
     
 </head>
 
@@ -133,9 +175,8 @@
                 
             </ul>
         </div><!-- #navbar -->
-        <form action="https://www.google.com/search" class="navbar-form" id="search-form" method="get" role="search">
+        <form action="/search/" class="navbar-form" id="search-form" method="get" role="search">
             
-                <input type="hidden" name="as_sitesearch" value="" />
             
             <input type="text" class="form-control" id="search-input" name="q" placeholder="Search" />
             <a class="mdi-action-search" id="search-button"></a>
@@ -151,21 +192,42 @@
     <header class="panel-heading">
         <h1 class="blog-post-title" itemprop="headline name">
             
-                Got lost?
+                Search results
             
         </h1>
     </header>
 
     <article class="blog-post-content panel-body" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/WebPageElement">
         
+            <!-- Google AdSense -->
+<div class="row">
+    <div class="col-xs-12">
+        <ins class="adsbygoogle" id="content_ad_unit_1"
+            data-ad-client="ca-pub-5193467168351289"
+            data-ad-format="auto"
+            data-ad-slot="8497482255"></ins>
+    </div><!-- .col-xs-12 -->
+</div><!-- .row -->
+<!-- End Google AdSense -->
 
         
-            <p>Please, use the search form above.</p>
-            <script>
-                $(document).ready(function(){
-                    $('#search-button').click();
-                });
-            </script>
+
+        
+            <div class="reset-box-sizing">
+                <script>
+                    (function() {
+                        var cx = '006707575509905065349:ov3yvz4dmpq';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                            '//cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:searchresults-only></gcse:searchresults-only>
+            </div>
                
     </article>
 </div><!-- .blog-post -->
@@ -178,14 +240,14 @@
     </div>
     <div class="panel-body" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
         <p class='text-center' itemprop='logo' itemscope itemtype='http://schema.org/ImageObject'>
-            <a href='/assets/favicons/android-chrome-192x192.png' itemprop='url'>
-                <img src='/assets/favicons/android-chrome-192x192.png' class='img-responsive img-thumbnail'>
+            <a href='https://livesuse.github.io/assets/favicons/android-chrome-192x192.png' itemprop='url'>
+                <img src='https://livesuse.github.io/assets/favicons/android-chrome-192x192.png' class='img-responsive img-thumbnail'>
             </a>
             <!--<meta itemprop="width" content=""/>--><!-- TODO Image width -->
             <!--<meta itemprop="height" content=""/>--><!-- TODO Image height -->
         </p>
         <p class="lead text-center">
-            <a href="" itemprop="url">
+            <a href="https://livesuse.github.io" itemprop="url">
                 <span itemprop="name">LiveSUSE</span>
             </a>
         </p>
@@ -202,57 +264,57 @@
     </div>
     <div class="panel-body" itemprop="author" itemscope itemtype="http://schema.org/Person">
         
-            <p class="text-center">
-                <a href='https://secure.gravatar.com/avatar/b62e2d803493e67077c33c8917a33b11' title='Your awesome name'>
-                    <img src='https://secure.gravatar.com/avatar/b62e2d803493e67077c33c8917a33b11' alt='Your awesome name' class='img-circle img-responsive img-thumbnail'>
-                </a>
-            </p>
-        
         
             <p class="lead" itemprop="name">
-                Your awesome name
+                Antônio Vinícius
             </p>
         
         <ul class="contact-list list-unstyled">
             
-                <li><a href="http://yourdomain.com" itemprop="url"><i class="fa fa-globe"></i> http://yourdomain.com</a></li>
+                <li><a href="https://vinyanalista.github.io" itemprop="url"><i class="fa fa-globe"></i> https://vinyanalista.github.io</a></li>
             
-            
-                <li><a href="mailto:your-email@yourdomain.com" itemprop="email"><i class="fa fa-envelope"></i> your-email@yourdomain.com</a></li>
             
         </ul>
 
         
-            <ul class="social-media-list list-unstyled">
+            <!-- AddThis Follow Buttons -->
+            <div class="addthis_toolbox addthis_32x32_style addthis_default_style center-block">
+                
+                    <a href="https://facebook.com/Livesuse-127893247800983" class="addthis_button_facebook_follow" addthis:userid="Livesuse-127893247800983" itemprop="sameAs"></a>
                 
                 
-                    <li>
-                        <a href="https://twitter.com/jekyllrb" itemprop="sameAs">
-                            <i class="fa fa-twitter"></i> jekyllrb
-                        </a>
-                    </li>
-                
-                
+                    <a href="https://twitter.com/LiveSUSE" class="addthis_button_twitter_follow" addthis:userid="LiveSUSE" itemprop="sameAs"></a>
                 
                 
                 
                 
-                    <li>
-                        <a href="https://github.com/jekyll" itemprop="sameAs">
-                            <i class="fa fa-github"></i> jekyll
-                        </a>
-                    </li>
                 
-                <li>
-                    <a href="/feed.xml">
-                        <i class="fa fa-rss-square"></i> subscribe via RSS
-                    </a>
-                </li>
-            </ul>
+                
+                    <a href="https://github.com/livesuse" class="addthis_button_github_follow" addthis:userid="livesuse" itemprop="sameAs"></a>
+                
+                <a href="/feed.xml" class="addthis_button_rss_follow"></a>
+            </div>
+            <!-- AddThis Follow Buttons End -->
         
     </div><!-- .panel-body -->
 </div><!-- .panel -->
 
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <!-- Google AdSense -->
+<div class="row">
+    <div class="col-xs-12">
+        <ins class="adsbygoogle" id="sidebar_ad_unit"
+            data-ad-client="ca-pub-5193467168351289"
+            data-ad-format="auto"
+            data-ad-slot="2450948654"></ins>
+    </div><!-- .col-xs-12 -->
+</div><!-- .row -->
+<!-- End Google AdSense -->
+
+        </div><!-- .col-xs-12 -->
+    </div><!-- .row -->
 
 
             </div>
@@ -264,7 +326,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <p class="text-center">
-                    Copyright &copy; 2017 <a href='#author'>Your awesome name</a>. All rights reserved. Based on <a href='https://github.com/vinyanalista/material-jekyll-plus'>Material site template for Jekyll PLUS</a>.
+                    Copyright &copy; 2017 <a href='#author'>Antônio Vinícius</a>. All rights reserved. Based on <a href='https://github.com/vinyanalista/material-jekyll-plus'>Material site template for Jekyll PLUS</a>.
                 </p>
             </div>
         </div>
@@ -276,7 +338,7 @@
 
 
     <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-        <meta itemprop="url" content="/assets/favicons/android-chrome-192x192.png"/>
+        <meta itemprop="url" content="https://livesuse.github.io/assets/favicons/android-chrome-192x192.png"/>
         <!--<meta itemprop="width" content=""/>--><!-- TODO Image width -->
         <!--<meta itemprop="height" content=""/>--><!-- TODO Image height -->
     </div> 
@@ -287,7 +349,83 @@
 
 
 
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        
+            var disqus_config = function () {
+                this.language = "en";
+            };
+        
+        var disqus_shortname = 'livesuse';
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- Disqus End -->
 
+
+
+    <!-- Google AdSense -->
+    
+        <!-- Google AdSense -->
+<div class="row">
+    <div class="col-xs-12">
+        <ins class="adsbygoogle" id="content_ad_unit_2"
+            data-ad-client="ca-pub-5193467168351289"
+            data-ad-format="auto"
+            data-ad-slot="9974215452"></ins>
+    </div><!-- .col-xs-12 -->
+</div><!-- .row -->
+<!-- End Google AdSense -->
+
+    
+
+    <script type="text/javascript">
+        adsbygoogle = window.adsbygoogle || [];
+
+        $(document).ready(function(){
+            
+                var $ad = $('#content_ad_unit_2').closest('.row');
+                var $posts = $('.blog-post');
+                if (($posts.length > 1) || ($('.blog-archive-title').length > 0)) {
+                    // Post listing
+                    var post;
+                    if ($posts.length > 2) {
+                        post = random_number(2, $posts.length);
+                    } else {
+                        post = 2;
+                    }
+                    $posts.eq(post - 1).find('.blog-post-content .row').after($ad);
+                } else {
+                    // Page or post
+                    var $paragraphs = $('.blog-post-content p').filter(function() {
+                        return ($(this).closest('.no-ads-here').length == 0);
+                    });
+                    if ($paragraphs.length > 0) {
+                        var paragraph;
+                        if ($paragraphs.length > 1) {
+                            paragraph = random_number(1, $paragraphs.length);
+                        } else {
+                            paragraph = 1;
+                        }
+                        $paragraphs.eq(paragraph - 1).after($ad);
+                    } else {
+                        $ad.remove();
+                    }
+                }
+            
+            $('.adsbygoogle').each(function(index, element){
+                adsbygoogle.push({});
+            });
+        });
+    </script>
+    <!-- Google AdSense End -->
 
 
 

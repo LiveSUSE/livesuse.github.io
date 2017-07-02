@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
 	<ShortName>LiveSUSE</ShortName>
-	<Description>Use Google to search LiveSUSE</Description>
-	<Url type="application/rss+xml" template="https://www.google.com/search?as_sitesearch=&q={searchTerms}"/>
+	<Description>Search LiveSUSE</Description>
+	<Url type="application/rss+xml" template="https://livesuse.github.io/search/?q={searchTerms}"/>
 </OpenSearchDescription>
