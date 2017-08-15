@@ -41,6 +41,8 @@
     <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 " />
     
+        <meta property="og:email" content="vinyanalista@gmail.com" />
+    
     
         <meta property="og:image" content="https://livesuse.github.io/assets/icons/breeze/apps/48/kdeapp.png" />
     
@@ -225,30 +227,50 @@
 
         <div class="row">
             <div class="col-xs-12">
-                <p>LiveSUSE is completely free to download, use and share.</p>
+                <p>LiveSUSE is completely <a href="https://www.gnu.org/philosophy/free-sw.en.html"><strong>free</strong></a> to download, use and share.</p>
 
 <p>Below we present some <a href="https://en.wikipedia.org/wiki/ISO_image">ISO images</a> of the regular release version of <a href="https://www.opensuse.org/">openSUSE</a> — <a href="https://en.opensuse.org/Portal:Leap">Leap</a>. Choose a desktop environment, download the corresponding ISO image, then use it as a <a href="https://kamarada.github.io/en/2015/12/09/what-is-a-livecd-dvd-usb/">LiveDVD</a>, a <a href="https://kamarada.github.io/en/2015/12/09/what-is-a-livecd-dvd-usb/">LiveUSB</a> or within a virtual machine.</p>
 
 <div class="row">
     <div class="col-sm-6">
-        <img src="/assets/icons/breeze/apps/48/kdeapp.png" class="center-block">
-        <h2 class="text-center">KDE</h2>
-        <img src="/files/2017/07/screenshot-kde-42.2.jpg" class="center-block img-responsive">
-        <a href="https://sourceforge.net/projects/livesuse/files/distribution/leap/42.2/LiveSUSE-Leap-42.2-KDE.x86_64-20170717.iso/download" class="btn btn-primary center-block">Download</a>
-        <a href="https://sourceforge.net/projects/livesuse/files/distribution/leap/42.2/LiveSUSE-Leap-42.2-KDE.x86_64-20170717.iso.sha256/download" class="btn btn-default center-block">SHA256 checksum</a>
+        <div class="row">
+            <div class="col-xs-2 col-sm-3">
+                <img src="/assets/icons/breeze/apps/48/kdeapp.png">
+            </div>
+            <div class="col-xs-10 col-sm-9">
+                <h2>KDE</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <img src="/files/2017/07/screenshot-kde-42.2.jpg" class="center-block img-responsive">
+                <a href="https://sourceforge.net/projects/livesuse/files/distribution/leap/42.2/LiveSUSE-Leap-42.2-KDE.x86_64-20170717.iso/download" class="btn btn-primary center-block">Download</a>
+                <a href="https://sourceforge.net/projects/livesuse/files/distribution/leap/42.2/LiveSUSE-Leap-42.2-KDE.x86_64-20170717.iso.sha256/download" class="btn btn-default center-block">SHA256 checksum</a>
+            </div>
+        </div>
     </div>
     <div class="col-sm-6">
-        <img src="/assets/icons/gnome/48x48/places/start-here.png" class="center-block">
-        <h2 class="text-center">GNOME</h2>
-        <img src="/files/2017/07/screenshot-gnome-42.2.jpg" class="center-block img-responsive">
-        <a href="https://sourceforge.net/projects/livesuse/files/distribution/leap/42.2/LiveSUSE-Leap-42.2-GNOME.x86_64-20170717.iso/download" class="btn btn-primary center-block">Download</a>
-        <a href="https://sourceforge.net/projects/livesuse/files/distribution/leap/42.2/LiveSUSE-Leap-42.2-GNOME.x86_64-20170717.iso.sha256/download" class="btn btn-default center-block">SHA256 checksum</a>
+        <div class="row">
+            <div class="col-xs-2 col-sm-3">
+                <img src="/assets/icons/gnome/48x48/places/start-here.png">
+            </div>
+            <div class="col-xs-10 col-sm-9">
+                <h2>GNOME</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <img src="/files/2017/07/screenshot-gnome-42.2.jpg" class="center-block img-responsive">
+                <a href="https://sourceforge.net/projects/livesuse/files/distribution/leap/42.2/LiveSUSE-Leap-42.2-GNOME.x86_64-20170717.iso/download" class="btn btn-primary center-block">Download</a>
+                <a href="https://sourceforge.net/projects/livesuse/files/distribution/leap/42.2/LiveSUSE-Leap-42.2-GNOME.x86_64-20170717.iso.sha256/download" class="btn btn-default center-block">SHA256 checksum</a>
+            </div>
+        </div>
     </div>
 </div>
 
 <p>We recommend checking out the <a href="http://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/42.2/">Release Notes</a> before installation.</p>
 
-<p>The ISO images provided by the LiveSUSE Project are gently hosted on <a href="https://sourceforge.net/p/livesuse/" rel="nofollow"><img alt="Download LiveSUSE" src="https://sourceforge.net/sflogo.php?type=10&group_id=2864860"></a>.</p>
+<p>The ISO images provided by the LiveSUSE Project are gently hosted by <a href="https://sourceforge.net/p/livesuse/" rel="nofollow"><img alt="Download LiveSUSE" src="https://sourceforge.net/sflogo.php?type=10&group_id=2864860"></a>.</p>
 
             </div>
         </div>
@@ -257,48 +279,24 @@
 
             </div>
             <div class="col-sm-4">
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="about">
     <div class="panel-heading">
         <h3><a name="about"></a>About</h3>
     </div>
     <div class="panel-body" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="LiveSUSE" />
+        <meta itemprop="url" content="https://livesuse.github.io" />
         <p class='text-center' itemprop='logo' itemscope itemtype='http://schema.org/ImageObject'>
-            <a href='https://livesuse.github.io/assets/favicons/android-chrome-192x192.png' itemprop='url'>
-                <img src='https://livesuse.github.io/assets/favicons/android-chrome-192x192.png' class='img-responsive img-thumbnail'>
+            <a href='https://livesuse.github.io/favicon.png' itemprop='url'>
+                <img src='https://livesuse.github.io/favicon.png' class='img-responsive img-thumbnail'>
             </a>
             <!--<meta itemprop="width" content=""/>--><!-- TODO Image width -->
             <!--<meta itemprop="height" content=""/>--><!-- TODO Image height -->
-        </p>
-        <p class="lead text-center">
-            <a href="https://livesuse.github.io" itemprop="url">
-                <span itemprop="name">LiveSUSE</span>
-            </a>
         </p>
         <p class="text" itemprop="description">
             Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 
         </p>
-    </div><!-- .panel-body -->
-</div><!-- .panel -->
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h3><a name="author"></a>Author</h3>
-    </div>
-    <div class="panel-body" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        
-        
-            <p class="lead" itemprop="name">
-                Antônio Vinícius
-            </p>
-        
-        <ul class="contact-list list-unstyled">
-            
-                <li><a href="https://vinyanalista.github.io" itemprop="url"><i class="fa fa-globe"></i> https://vinyanalista.github.io</a></li>
-            
-            
-        </ul>
-
         
             <!-- AddThis Follow Buttons -->
             <div class="addthis_toolbox addthis_32x32_style addthis_default_style center-block">
@@ -319,6 +317,31 @@
             </div>
             <!-- AddThis Follow Buttons End -->
         
+    </div><!-- .panel-body -->
+</div><!-- .panel -->
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3><a name="author"></a>Author</h3>
+    </div>
+    <div class="panel-body" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        
+            <p class="text-center">
+                <a href='https://secure.gravatar.com/avatar/5415f4267b44aa9f51b6f89ac4d1656b' title='Antônio Vinícius'>
+                    <img src='https://secure.gravatar.com/avatar/5415f4267b44aa9f51b6f89ac4d1656b' alt='Antônio Vinícius' class='img-circle img-responsive img-thumbnail'>
+                </a>
+            </p>
+        
+        
+            <p class="lead text-center" itemprop="name">
+                Antônio Vinícius
+            </p>
+        
+        <ul class="contact-list list-unstyled">
+            
+                <li><a href="https://vinyanalista.github.io" itemprop="url"><i class="fa fa-globe"></i> https://vinyanalista.github.io</a></li>
+            
+        </ul>
     </div><!-- .panel-body -->
 </div><!-- .panel -->
 
