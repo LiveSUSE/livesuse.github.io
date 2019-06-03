@@ -1,0 +1,18 @@
+{
+    "name": "LiveSUSE",
+    "short_name": "LiveSUSE",
+    "icons": [
+        {
+            "src": "https://livesuse.github.io/assets/favicons/android-chrome-192x192.png?v=3",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://livesuse.github.io/assets/favicons/android-chrome-256x256.png?v=3",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#c1d99d",
+    "background_color": "#c1d99d"
+}
